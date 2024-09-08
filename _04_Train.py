@@ -74,5 +74,5 @@ validate_model(model, val_loader, criterion)
 
 # 6. Save the Trained Model
 # ذخیره مدل آموزش‌دیده
-torch.save(model.state_dict(), 'real_estate_model.pth')
+torch.save(model.state_dict(), 'TrainResults/real_estate_model.pth')
 print("Model saved to real_estate_model.pth")
